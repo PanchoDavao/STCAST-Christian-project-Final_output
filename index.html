@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>STCAST - Excellence in Agricultural Education</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav-inner">
+      <div class="logo">STCAST</div>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav">☰ Menu</button>
+
+      <nav id="mainNav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#mission">Mission &amp; Vision</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="content container">
+      <h1>Empowering Future Office Administration Professionals</h1>
+      <p class="lead">Santo Tomas College of Agriculture Sciences and Technology (STCAST) combines modern office management techniques with hands-on experience to prepare students for successful careers in office administration and business environments.</p>
+      <a class="btn-primary" href="#mission">Our Mission</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="container">
+    <h2>About STCAST</h2>
+    <p class="lead">STCAST is a leading institution in office administration education. We are committed to empowering future office administration professionals with the knowledge, skills, and practical experience needed to excel in the modern workplace.</p>
+
+    <div class="cards">
+      <div class="card">
+        <h3 style="margin-top:0">Hands-on Learning</h3>
+        <p class="muted-small">Field work, labs, and community projects ensure students graduate with real-world skills.</p>
+      </div>
+      <div class="card">
+        <h3 style="margin-top:0">Industry Partnerships</h3>
+        <p class="muted-small">Collaborations with local farms and agribusinesses help with internships and job placements.</p>
+      </div>
+      <div class="card">
+        <h3 style="margin-top:0">Research &amp; Innovation</h3>
+        <p class="muted-small">Ongoing research in sustainable agriculture and agri-tech encourages student-led innovation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs -->
+  <section id="programs" class="programs container">
+    <h2>Programs Offered</h2>
+    <ul>
+      <li>Bachelor of Science in Office Administration</li>
+      <li>Bachelor in Public Administration</li>
+      <li>Bachelor of Science in Agribusiness</li>
+      <li>Bachelor of Science in Technical-Vocational Teachers</li>
+      <li>Bachelor in Entrepreneurship</li>
+      <li>Bachelor of Science in Information Security Management</li>
+    </ul>
+  </section>
+
+  <!-- New Section: Mission & Vision -->
+  <section id="mission" class="container">
+    <h2>Mission &amp; Vision</h2>
+    <div class="mission">
+      <div class="text">
+        <h3>Our Mission</h3>
+        <p class="muted-small">To educate and empower students through quality instruction, practical training, and professional development — producing competent office administration professionals ready to excel in the modern workplace.</p>
+
+        <h3>Our Vision</h3>
+        <p class="muted-small">A community where office administration expertise drives efficiency, innovation, and excellence in organizations, shaping capable leaders for a dynamic professional environment.</p>
+
+        <p><a href="stcastregistrar@gmail.com">Email Admissions</a> · <a href="https://web.facebook.com/stcastscholarship/?_rdc=1&_rdr#" target="_blank" rel="noopener">Visit Official Site</a></p>
+      </div>
+
+      <div class="media">
+        <img src="media.jpg" alt="Students in agriculture field" style="width:100%;border-radius:10px;box-shadow:0 10px 30px rgba(16,24,32,0.08)" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="gallery container">
+    <h2>Campus Life</h2>
+    <div class="images">
+      <img src="campus1.jpg" alt="Campus landscape">
+      <img src="campus2.jpg" alt="Students collaborating">
+      <img src="campus3.jpg" alt="Laboratory work">
+    </div>
+  </section>
+
+<!-- Contact / Footer -->
+<footer id="contact">
+  <div class="container footer-inner">
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p>📍 Santo Tomas, Batangas</p>
+      <p>📞 (043) 123-4567</p>
+      <p>✉️ <a href="mailto:info@stcast.edu.ph">info@stcast.edu.ph</a></p>
+    </div>
+
+    <div class="footer-rights">
+      <p>© 2025 STCAST. All Rights Reserved.</p>
+      <a href="#programs">Explore Programs</a>
+    </div>
+  </div>
+</footer>
+
+
+  <script>
+    // Mobile nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const mainNav = document.getElementById('mainNav');
+    navToggle.addEventListener('click', () => {
+      const isOpen = mainNav.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+  </script>
+</body>
+</html>
